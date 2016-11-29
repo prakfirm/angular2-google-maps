@@ -1,4 +1,4 @@
-export var google: any;
+export let google: any;
 
 export interface GoogleMap extends MVCObject {
   constructor(el: HTMLElement, opts?: MapOptions): void;

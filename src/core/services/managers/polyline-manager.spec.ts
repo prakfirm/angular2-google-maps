@@ -2,9 +2,9 @@ import {NgZone} from '@angular/core';
 import {TestBed, inject} from '@angular/core/testing';
 
 import {SebmGoogleMapPolyline} from '../../directives/google-map-polyline';
-import {GoogleMapsAPIWrapper} from '../../services/google-maps-api-wrapper';
-import {Polyline} from '../../services/google-maps-types';
-import {PolylineManager} from '../../services/managers/polyline-manager';
+import {GoogleMapsAPIWrapper} from '../google-maps-api-wrapper';
+import {Polyline} from '../google-maps-types';
+import {PolylineManager} from './polyline-manager';
 
 describe('PolylineManager', () => {
   beforeEach(() => {

@@ -20,7 +20,7 @@ export function coreDirectives() {
     SebmGoogleMap, SebmGoogleMapMarker, SebmGoogleMapInfoWindow, SebmGoogleMapCircle,
     SebmGoogleMapPolygon, SebmGoogleMapPolyline, SebmGoogleMapPolylinePoint
   ];
-};
+}
 
 /**
  * The angular2-google-maps core module. Contains all Directives/Services/Pipes

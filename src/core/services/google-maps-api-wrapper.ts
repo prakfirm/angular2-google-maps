@@ -8,7 +8,7 @@ import {PolylineOptions} from './google-maps-types';
 import {MapsAPILoader} from './maps-api-loader/maps-api-loader';
 
 // todo: add types for this
-declare var google: any;
+declare let google: any;
 
 /**
  * Wrapper class that handles the communication with the Google Maps Javascript

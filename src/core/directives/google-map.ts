@@ -275,6 +275,7 @@ export class SebmGoogleMap implements OnChanges, OnInit, OnDestroy {
     this._mapsWrapper.setMapOptions(options);
   }
 
+  //noinspection JSUnusedGlobalSymbols
   /**
    * Triggers a resize event on the google map instance.
    * Returns a promise that gets resolved after the event was triggered.
