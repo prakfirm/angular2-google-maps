@@ -1,5 +1,5 @@
 {
-  "name": "angular2-google-maps",
+  "name": "@deals-encash/angular2-google-maps",
   "version": "0.16.0",
   "description": "Angular 2 components for Google Maps",
   "repository": {
